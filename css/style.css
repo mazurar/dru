@@ -1,0 +1,339 @@
+/*============    ШРИФТЫ    ===========*/
+@font-face {
+  font-family: 'PFDinTextCondProBold_35399';
+  src: url('fonts/PFDinTextCondProBold_35399.eot');
+  src: url('fonts/PFDinTextCondProBold_35399.eot') format('embedded-opentype'), url('fonts/PFDinTextCondProBold_35399.woff2') format('woff2'), url('fonts/PFDinTextCondProBold_35399.woff') format('woff'), url('fonts/PFDinTextCondProBold_35399.ttf') format('truetype'), url('fonts/PFDinTextCondProBold_35399.svg#PFDinTextCondProBold_35399') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCondProLight_35402';
+  src: url('fonts/PFDinTextCondProLight_35402.eot');
+  src: url('fonts/PFDinTextCondProLight_35402.eot') format('embedded-opentype'), url('fonts/PFDinTextCondProLight_35402.woff2') format('woff2'), url('fonts/PFDinTextCondProLight_35402.woff') format('woff'), url('fonts/PFDinTextCondProLight_35402.ttf') format('truetype'), url('fonts/PFDinTextCondProLight_35402.svg#PFDinTextCondProLight_35402') format('svg');
+}
+@font-face {
+  font-family: 'PFDinTextCondProMedium_35404';
+  src: url('fonts/PFDinTextCondProMedium_35404.eot');
+  src: url('fonts/PFDinTextCondProMedium_35404.eot') format('embedded-opentype'), url('fonts/PFDinTextCondProMedium_35404.woff2') format('woff2'), url('fonts/PFDinTextCondProMedium_35404.woff') format('woff'), url('fonts/PFDinTextCondProMedium_35404.ttf') format('truetype'), url('fonts/PFDinTextCondProMedium_35404.svg#PFDinTextCondProMedium_35404') format('svg');
+}
+.bold {
+  font-family: 'PFDinTextCondProBold_35399';
+}
+.light {
+  font-family: 'PFDinTextCondProLight_35402';
+}
+.med {
+  font-family: 'PFDinTextCondProMedium_35404';
+}
+/*==========================    БАЗОВЫЕ НАСТРОЙКИ ===================*/
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+.section_header h2 {
+  text-transform: uppercase;
+  color: #666666;
+  font-family: 'PFDinTextCondProBold_35399';
+}
+/*==========================    ШАПКА    ===================*/
+header {
+  color: #666666;
+  padding-top: 25px;
+  margin-top: 20px;
+}
+header .descript h4 {
+  font-family: 'PFDinTextCondProMedium_35404';
+  text-transform: uppercase;
+}
+header .descript h5 {
+  font-family: 'PFDinTextCondProLight_35402';
+  font-size: 18px;
+}
+header .phone_number {
+  text-align: right;
+}
+header .phone_number h3 {
+  margin-top: 7px;
+}
+header .phone_number p {
+  font-family: 'PFDinTextCondProLight_35402';
+}
+header .phone_number a {
+  font-family: 'PFDinTextCondProMedium_35404';
+  color: #666666;
+  display: inline-block;
+}
+header .phone_number a a:hover {
+  text-decoration: none;
+}
+header .phone_number a:before {
+  vertical-align: middle;
+  margin-right: 5px;
+  content: '\f095';
+  font-family: FontAwesome;
+  color: #666666;
+  display: inline-block;
+}
+/*==========================    НАВИГАЦИЯ    ===============*/
+nav {
+  background-color: #fafdfa;
+}
+nav ul.list-inline a {
+  font-family: 'PFDinTextCondProLight_35402';
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  color: #666666;
+}
+nav ul.list-inline a:hover {
+  text-decoration: none;
+  background-color: #67cc67;
+  color: #fff;
+}
+nav ul.list-inline {
+  margin: 0;
+}
+/*=================    ГЛАВНЫЙ ЭКРАН    ================*/
+section#main {
+  background: url(../img/main_bg_1920.jpg) no-repeat center center;
+  background-color: rgba 255,255,255, 0.9;
+  background-size: cover;
+}
+section#main .main_header h1 {
+  margin-top: 80px;
+  margin-bottom: 70px;
+  font-family: 'PFDinTextCondProBold_35399';
+  color: #fff;
+  text-transform: uppercase;
+}
+section#main .main_header h1 span {
+  background-color: #67cc67;
+  padding: 7px;
+}
+section#main h3 {
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold_35399';
+  color: #666666;
+}
+section#main h3 span {
+  color: #ff9933;
+}
+section#main .main_buttons {
+  margin-top: 7px;
+  margin-bottom: 80px;
+}
+section#main .main_buttons button#get_measurer {
+  border: none;
+  background-color: #ff9933;
+  padding: 17px 35px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'PFDinTextCondProBold_35399';
+  text-transform: uppercase;
+}
+section#main .main_buttons button#get_measurer:hover {
+  background-color: #d67513;
+}
+section#main .main_buttons button#get_types {
+  border: 2px solid #ff9933;
+  background-color: transparent;
+  padding: 15px 33px;
+  color: #ff9933;
+  font-family: 'PFDinTextCondProBold_35399';
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-left: 20px;
+}
+section#main .main_buttons button#get_types:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+/*============    ВИДЫ ЖАЛЮЗИ    ===========*/
+section#types {
+  color: #666666;
+  padding-top: 50px;
+}
+section#types .section_header {
+  margin-bottom: 60px;
+}
+section#types h4 {
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProMedium_35404';
+  margin-top: 20px;
+}
+section#types button.more_btn {
+  padding: 10px 25px;
+  border: none;
+  color: #66cc66;
+  border: 2px solid #66cc66;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold_35399';
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -webkit-transition: all 0.1s 0.02s ease;
+}
+section#types button.more_btn:hover {
+  background-color: #66cc66;
+  color: #fff;
+}
+section#types button.offer_btn {
+  padding: 10px 25px;
+  border: none;
+  color: #fff;
+  border: 2px solid #66cc66;
+  background-color: #66cc66;
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold_35399';
+  -moz-transition: all 0.1s 0.02s ease;
+  -o-transition: all 0.1s 0.02s ease;
+  -webkit-transition: all 0.1s 0.02s ease;
+}
+section#types button.offer_btn:hover {
+  background-color: #fff;
+  color: #66cc66;
+}
+section#types .card {
+  padding: 5px;
+  border: 2px solid transparent;
+  -moz-transition: all 0.2s 0.02s ease;
+  -o-transition: all 0.2s 0.02s ease;
+  -webkit-transition: all 0.2s 0.02s ease;
+}
+section#types .card:hover {
+  background-color: #edf7ed;
+  border: 2px solid #b2e5b2;
+}
+/*============    БЕСПЛАТНАЯ КОНСУЛЬТАЦИЯ    ===========*/
+section#help {
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+section#help h3 {
+  color: #ff9933;
+  text-transform: uppercase;
+  font-family: 'PFDinTextCondProBold_35399';
+}
+section#help p {
+  color: #666666;
+  font-family: 'PFDinTextCondProLight_35402';
+  font-size: 18px;
+}
+section#help img {
+  border-radius: 3px;
+  margin-top: 25px;
+}
+section#help button#free_consult {
+  font-family: 'PFDinTextCondProBold_35399';
+  text-transform: uppercase;
+  font-size: 18px;
+  border: none;
+  background-color: transparent;
+  color: #ff9933;
+  border: 2px solid #ff9933;
+  padding: 10px 25px;
+}
+section#help button#free_consult:hover {
+  background-color: #ff9933;
+  color: #fff;
+}
+/*============    АКЦИИ    ===========*/
+section#offer {
+  padding-top: 70px;
+}
+section#offer h4 {
+  text-transform: uppercase;
+  color: #ff9933;
+  font-family: 'PFDinTextCondProBold_35399';
+}
+section#offer h3 {
+  text-transform: uppercase;
+  color: #ff9933;
+  font-family: 'PFDinTextCondProBold_35399';
+}
+section#offer p {
+  font-family: 'PFDinTextCondProLight_35402';
+  color: #666666;
+  font-size: 22px;
+}
+section#offer input[name="name"] {
+  padding: 25px;
+  border-radius: 0;
+  border: 1px solid #cccccc;
+  font-family: 'PFDinTextCondProLight_35402';
+  font-size: 18px;
+  opacity: 0.4;
+}
+section#offer input[name="name"]:focus,
+section#offer input[name="name"]:hover {
+  opacity: 1;
+}
+section#offer input[name="phone"] {
+  padding: 24px;
+  border-radius: 0;
+  border: 1px solid #cccccc;
+  font-family: 'PFDinTextCondProLight_35402';
+  font-size: 18px;
+  opacity: 0.4;
+}
+section#offer input[name="phone"]:focus,
+section#offer input[name="phone"]:hover {
+  opacity: 1;
+}
+section#offer button[type="submit"] {
+  font-family: 'PFDinTextCondProBold_35399';
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #ff9933;
+  border: 1px solid #ff9933;
+  padding: 14px 25px;
+}
+section#offer button[type="submit"]:hover {
+  background-color: white;
+  color: #ff9933;
+}
+/*============    ОТЗЫВЫ =========*/
+section#feedback {
+  padding-bottom: 50px;
+}
+section#feedback .section_header {
+  margin-bottom: 50px;
+}
+section#feedback .item {
+  height: 350px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+section#feedback .item h5 {
+  margin-top: 25px;
+  font-family: 'PFDinTextCondProMedium_35404';
+  color: #666666;
+  font-size: 20px;
+}
+section#feedback .item a {
+  font-family: 'PFDinTextCondProMedium_35404';
+  font-size: 17px;
+}
+section#feedback .item p {
+  font-size: 17px;
+  margin-top: 20px;
+  font-family: 'PFDinTextCondProLight_35402';
+}
+section#feedback .carousel-indicators {
+  bottom: -50px;
+}
+section#feedback .carousel-indicators .active {
+  background-color: #66cc66;
+}
+section#feedback .carousel-indicators li {
+  border: solid 1px #66cc66;
+}
+section#feedback .audio {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ШРИФТЫ    ===========*/
+/*============    ПОДВАЛ    ===========*/
+/*============    	ВСПЛЫВАЮЩИЕ ОКНА    ===========*/
+/*============    	АДАПТИВ    ===========*/
